@@ -1,0 +1,19 @@
+body{
+    background: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.header-wrapper{
+    background: red;
+    height: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    .btn{
+        background: yellow;
+        &.visites{
+            background: pink;
+        }
+        &.hi{
+            background: blue;
+        }
+    }
+}
+}
