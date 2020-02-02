@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.scss';
+import Navigation from './Navigation';
 
 
 function App() {
@@ -7,9 +8,7 @@ function App() {
     <div className="App">
       <div className="header-wrapper">
         <div className="logo">Vinay</div>
-        <button className="btn">hello</button>
-        <button className="btn visites">my word</button>
-        <button className="btn hi">your word</button>
+        <Navigation/>
       </div>
     </div>
   );
